@@ -1,1 +1,3 @@
-﻿  yokan-party.vcxproj -> C:\Users\wv50v\Desktop\workspace\atcoder\yokan-party\x64\Debug\yokan-party.exe
+﻿  yokan-party.cpp
+C:\Users\wv50v\Desktop\workspace\atcoder\yokan-party\yokan-party.cpp(1,1): warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。
+  yokan-party.vcxproj -> C:\Users\wv50v\Desktop\workspace\atcoder\yokan-party\x64\Debug\yokan-party.exe
