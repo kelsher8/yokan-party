@@ -17,6 +17,7 @@ bool solve(long long M) {
 }
 
 int main() {
+
     // Step #1. 入力
     cin >> N >> L;
     cin >> K;
@@ -29,6 +30,7 @@ int main() {
 
     long long left = -1;
     long long right = L + 1;
+
     while (right - left > 1) {
         long long mid = left + (right - left) / 2;
         if (solve(mid) == false) right = mid;
@@ -38,3 +40,4 @@ int main() {
     cout << left << endl;
     return 0;
 }
+
