@@ -16,6 +16,8 @@ int main(){
     std::cin >> N >> L;    
     std::cin >> K;
 
+    //test
+
     int score = 0;
 
     //()をつけることでnewを0クリアする
