@@ -4,6 +4,7 @@ using namespace std;
 long long N, K, L;
 long long A[1 << 18];
 
+//長さM以上のピースに分割可能かという視点で考える
 bool solve(long long M) {
     long long cnt = 0, pre = 0;
     for (int i = 1; i <= N; i++) {
